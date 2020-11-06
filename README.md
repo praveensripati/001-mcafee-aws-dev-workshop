@@ -59,7 +59,7 @@
 
 # Note
 
-1. Everything will be shared via Github.
+1. Everything will be shared via Github. Except for the videos which will be there in the Edureka LMS.
 
 1. We will try to make the sessions interactive with a lot of labs/demos as we progress. Initially we will setup the foundation.
 
