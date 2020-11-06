@@ -21,7 +21,6 @@
     - Earlier created KeyPair
     - Earlier created SecurityGroup (AllowAll)
     - Click on `Create launch template`
-    - Store the Keypair (ppk) on the Laptop.
 
 1. To launch EC2 from the above template.
 ![](images/2020-11-05-10-19-14.png)
