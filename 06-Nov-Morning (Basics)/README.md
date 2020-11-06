@@ -20,6 +20,7 @@
 
 1. Making changes to the AWS documentation
     - https://aws.amazon.com/blogs/aws/aws-documentation-is-now-open-source-and-on-github/
+    - https://docs.aws.amazon.com/lambda/latest/dg/with-s3-example.html
     - https://github.com/awsdocs/aws-lambda-developer-guide/pull/217
 
 # AWS Management Console
