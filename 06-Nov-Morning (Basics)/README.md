@@ -23,6 +23,10 @@
     - https://docs.aws.amazon.com/lambda/latest/dg/with-s3-example.html
     - https://github.com/awsdocs/aws-lambda-developer-guide/pull/217
 
+1. AWS Console
+    - http://console.aws.amazon.com/ (Personal Account)
+    - https://cloudlabs.nuvepro.com/company/EdurekaLive/home (Edureka AWS Account)
+
 # AWS Management Console
 
 1. Navigating the AWS Management Console.
