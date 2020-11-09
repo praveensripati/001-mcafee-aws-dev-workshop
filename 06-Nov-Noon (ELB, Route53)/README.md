@@ -46,10 +46,7 @@
 
 ![](images/2020-11-05-11-42-47.png)
 
-1. In the EC2 Management Console, create three Target Groups with below names and default options. For each of the above Target Groups add the appropriate EC2 instance as the Target.
-    - ApparelTG
-    - ElectronicsTG
-    - DefaultTG
+1. In the EC2 Management Console, create three Target Groups (ApparelTG, ElectronicsTG & DefaultTG) with the default options. For each of the above Target Groups add the appropriate EC2 instance as the Target. This can be done by selecting the EC2 instance and clicking on `Include as pending below` button while creating the Target Group.\
 ![](images/2020-11-05-13-41-42.png)
 ![](images/2020-11-05-13-42-50.png)
 ![](images/2020-11-05-13-45-56.png)

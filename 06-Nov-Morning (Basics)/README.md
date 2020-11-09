@@ -53,16 +53,42 @@
 
 1. Shared Tenancy vs Dedicated Hosts
 
-## Practicals (By Praveen)
+## Practicals
 
-1. Creating Security Groups and KeyPair.
+1. Creating Security Groups.
 
-1. Creating a Launch Template and using it.
+1. Make sure to select the `New EC2 Experience` from the EC2 Management Console as shown below.\
+![](images/2020-11-04-10-00-53.png)
 
-1. Launch the EC2 via the Launch Template.
+1. Create a Security Group (AllowAll) with Inbound `All Protocols/Ports/Sources`. The Outbound rules can be left as default.\
+![](images/2020-11-05-13-57-43.png)
+![](images/2020-11-05-13-58-03.png)
+
+1. Create a KeyPair with private key in the `ppk` format. When prompted download the Privatekey to Laptop.\
+![](images/2020-11-04-19-44-47.png)
+
+1. Create an `EC2 Launch Template` with the below details
+    - Navigate to
+        - https://console.aws.amazon.com/ec2/v2/home?region=us-east-1#LaunchTemplates:
+    - Click on `Create launch template`\
+![](images/2020-11-05-10-17-55.png)
+    - Give the Launch Template a name and description
+    - `Ubuntu Server 18.04 LTS (HVM), SSD Volume Type` as the AMI. Make sure to select the one with the architecture as `64-bit (x86)` as shown below.
+![](images/2020-11-06-20-16-53.png)
+    - Instance type as `t2.medium`
+    - Earlier created KeyPair
+    - Earlier created SecurityGroup (AllowAll)
+    - Click on `Create launch template`
+
+1. To launch EC2 from the above template.
+![](images/2020-11-05-10-19-14.png)
 
 1. Grab the Public IP address of the EC2 instance.\
 ![](images/2020-11-05-10-35-39.png)
+
+1. Download Putty from the below URL.\
+        - https://www.chiark.greenend.org.uk/~sgtatham/putty/latest.html
+![](images/2020-11-05-10-36-37.png)
 
 1. Open Putty and specify the username and IP as shown below.\
 ![](images/2020-11-05-10-37-29.png)
@@ -130,7 +156,7 @@
 
 1. Scheduling activities
 
-## Practicals (By Praveen)
+## Practicals
 
 1. Enable detailed monitoring and watch the metrics in the CloudWatch DashBoard
 
@@ -164,7 +190,7 @@
 
 1. Snow Devices
 
-## Practicals (By Praveen)
+## Practicals
 
 1. Creating buckets and uploading files
 
@@ -230,7 +256,7 @@
 
 1. VPC Peering for connectivity across VPCs
 
-## Practicals (By Praveen)
+## Practicals
 
 1. Selecting the VPC and the Subnets while launching an EC2 instance for the sake of High Availability.
 
