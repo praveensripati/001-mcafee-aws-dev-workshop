@@ -78,7 +78,7 @@ The AWS CLI, Python SDK (Boto3) and Node.js can be installed on the EC2 and also
 1. Delete the bucket
     >aws s3api delete-bucket --bucket my-bucket-praveen
 
-1. Get more commands from the below CLI Reference Guide (v2) and try them out.
+1. Get more commands from the below CLI Reference Guide (v1) and try them out.
 
 # Further Reading
 
