@@ -29,7 +29,7 @@ The AWS CLI, Python SDK (Boto3) and Node.js can be installed on the EC2 and also
 
 1. Run the `aws configure` command to specify the above keys and the region (us-east-1 for North Virginia). For the default output format leave blank.
 
-# To give the permissions to sthe **EC2** instances
+# To give the permissions to the **EC2** instances
 
 1. Navigate to the IAM Management Console. Click on the Roles tab. Click on `Create Role`.
 

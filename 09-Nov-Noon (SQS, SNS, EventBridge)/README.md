@@ -122,12 +122,12 @@ The A2A pub/sub functionality provides topics for high-throughput, push-based, m
 
 Amazon EventBridge is a serverless event bus that makes it easy to connect applications together using data from your own applications, integrated Software-as-a-Service (SaaS) applications, and AWS services.
 
-Use cases
-    - Customer support - any change in the status of the ticket
-    - Security operations - 3rd party integration with security products
-    - Application monitoring - changes in application performance
-    - Directory registration - new user registration
-    - Customer data updates - changes to the data in the CRM application
+Use cases :
+1. Customer support - any change in the status of the ticket
+1. Security operations - 3rd party integration with security products
+1. Application monitoring - changes in application performance
+1. Directory registration - new user registration
+1. Customer data updates - changes to the data in the CRM application
 
 EventBridge is more flexible than SQS in the number of event sources and targets it supports. It makes it easier to create plumbing of event sources and targets. For your example, EventRules supports S3 Events as a source and Step Functions as a target.
 

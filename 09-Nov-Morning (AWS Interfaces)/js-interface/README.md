@@ -9,7 +9,7 @@
 
     >mkdir js
 
-1. From the same folder execute the below commands to install the `aws-sdk` and `uuid` modules. A `node_modules` subdirectory will be automatically created.
+1. From the same folder execute the below commands to install the `aws-sdk` and `uuid` modules. A `node_modules` subdirectory will be automatically created. If any warnings, ignore them.
 
     >cd js\
     >npm install aws-sdk\
