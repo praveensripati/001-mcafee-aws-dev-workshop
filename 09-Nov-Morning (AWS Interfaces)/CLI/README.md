@@ -46,7 +46,8 @@ The AWS CLI, Python SDK (Boto3) and Node.js can be installed on the EC2 and also
 ![](../images/2020-11-06-20-35-06.png)
 ![](../images/2020-11-06-20-36-37.png)
 
-1. Run the `aws configure` command on the EC2 to specify **only** the default region (us-east-1 for North Virginia). Rest of the options can be left.
+1. Run the `aws configure` command on the EC2 to specify **only** the default region (us-east-1 for North Virginia). Rest of the options can be left.\
+![](images/aws-configure-command.png)
 
 # Execute the below commands to manage the AWS resources
 
