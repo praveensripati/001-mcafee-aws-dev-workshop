@@ -50,9 +50,9 @@ The AWS CLI, Python SDK (Boto3) and Node.js can be installed on the EC2 and also
 
 # Execute the below commands to manage the AWS resources
 
-1. Create the Security Group and open port 22.
-    >aws ec2 create-security-group --group-name ssh-access --description "allow ssh"
-    >aws ec2 authorize-security-group-ingress --group-name ssh-access --protocol tcp --port 22 --cidr 0.0.0.0/0
+1. Create the Security Group and open port 22. In the commands below, make sure to replace the vpc-id (can be got from the VPC Console), group-id(can be got from the EC2 Console).
+    >aws ec2 create-security-group --group-name MySecurityGroup --description "My security group" --vpc-id vpc-1a2b3c4d
+    >aws ec2 authorize-security-group-ingress --group-id sg-1234567890abcdef0 --protocol tcp --port 22 --cidr 203.0.113.0/24
 
 1. Get the subnets in the VPC
     >aws ec2 describe-subnets
