@@ -4,7 +4,7 @@
 
 import boto3
 
-sns = boto3.client('sns')
+sns = boto3.client('sns', region_name='us-east-1')
 response = sns.subscribe(
     TopicArn='arn:aws:sns:us-east-1:963880036659:my-topic',
     Protocol='email',

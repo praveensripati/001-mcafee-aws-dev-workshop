@@ -5,6 +5,9 @@
 var AWS = require('aws-sdk');
 var uuid = require('uuid');
 
+// Set the region 
+AWS.config.update({region: 'us-east-1'});
+
 // Create unique bucket name
 var bucketName = 'node-sdk-sample-' + uuid.v4();
 // Create name for uploaded object key

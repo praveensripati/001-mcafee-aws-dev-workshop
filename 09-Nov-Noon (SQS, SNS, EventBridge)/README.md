@@ -32,7 +32,7 @@ SQS is a managed services and all the above tasks are taken care by AWS automati
 
 ## Practicals (Python)
 
-1. Copy `sqs-python-code\send_message.py` and `sqs-python-code\get_message.py` to the EC2 instances. Make sure to replace the Queue URL in the code.
+1. Copy `sqs-python-code\send_message.py` and `sqs-python-code\get_message.py` to the EC2 instances into the folder. Make sure to replace the Queue URL in the code. The location of the Python3 files doesn't matter.
 
 1. On the first EC2 instance execute the below command to put a message in the Queue.
 
@@ -44,7 +44,7 @@ SQS is a managed services and all the above tasks are taken care by AWS automati
 
 ## Practicals (NodeJS)
 
-1. Copy `sqs-js-code\send_message.js` and `sqs-js-code\get_message.js` to the EC2 instances. Make sure to replace the Region and the Queue URL in the code.
+1. Copy `sqs-js-code\send_message.js` and `sqs-js-code\get_message.js` to the directory in the EC2 instances where `aws-sdk` module has been installed. Make sure to replace the Region and the Queue URL in the code.
 
 1. On the first EC2 instance execute the below command to put a message in the Queue.
 
