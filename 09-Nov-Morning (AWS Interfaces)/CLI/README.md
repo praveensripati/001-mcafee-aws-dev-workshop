@@ -20,15 +20,16 @@ The AWS CLI, Python SDK (Boto3) and Node.js can be installed on the EC2 and also
 
 # To give the permissions to **non-EC2** instances like laptops/server
 
-1. Generate the credentials from the [this](https://console.aws.amazon.com/iam/home?region=us-east-1#/security_credential) link.
-    - Click on `Continue with Security Credentials`
-    - Click on `Access keys (access key ID and secret access key)`.
+1. Generate the credentials from the [this](https://console.aws.amazon.com/iam/home?region=us-east-1#/home) link.
+    - Click on `Users` tab in the left pane.
+    - Click on the user email.
+    - Click on `Security Credentials` tab.
     - Click on `Create New Access Key`.
     - Note down the keys.
 
 1. Run the `aws configure` command to specify the above keys and the region (us-east-1 for North Virginia). For the default output format leave blank.
 
-# To give the permissions to for the **EC2** instances
+# To give the permissions to sthe **EC2** instances
 
 1. Navigate to the IAM Management Console. Click on the Roles tab. Click on `Create Role`.
 
