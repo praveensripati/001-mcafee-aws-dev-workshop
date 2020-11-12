@@ -23,6 +23,9 @@
 
 # Further Reading
 
+1. Modular packages in AWS SDK for JavaScript
+    - https://aws.amazon.com/blogs/developer/modular-packages-in-aws-sdk-for-javascript/
+
 1. How To Install Node.js on Ubuntu 18.04
     - https://www.digitalocean.com/community/tutorials/how-to-install-node-js-on-ubuntu-18-04
 

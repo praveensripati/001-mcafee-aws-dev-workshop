@@ -234,6 +234,7 @@
 
 1. S3 Intelligent Tiering
     - https://aws.amazon.com/about-aws/whats-new/2018/11/s3-intelligent-tiering/
+    - https://aws.amazon.com/about-aws/whats-new/2020/11/amazon-s3-intelligent-tiering-adds-archive-access-tiers/
 
 1. Permissions in S3 (IAM vs Bucket Policy vs ACL)
     - https://cloudonaut.io/s3-security-best-practice/

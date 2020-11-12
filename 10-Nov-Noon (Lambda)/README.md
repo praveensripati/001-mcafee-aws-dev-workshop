@@ -61,8 +61,7 @@ A Lambda function can be invoked in different ways:
 1. The above will trigger a Lambda function which will send an email via SES as shown below.\
 ![](images/2020-11-02-18-23-14.png)
 
-1. Now lets try to see how the Lambda function can be scheduled. Navigate to the below link in the CloudWatch.
-    - https://console.aws.amazon.com/cloudwatch/home?region=us-east-1#rules:
+1. Naviagte to the CloudWatch Management Console. Go to `Events -> Rules`.
 
 1. Click on `Create rule`. Select `Schedule`.
 
@@ -117,3 +116,9 @@ A Lambda function can be invoked in different ways:
 
 1. Code Guru (Profiling and Reviewing)
     - https://aws.amazon.com/codeguru/features/
+
+1. AWS Lambda layers
+    - https://docs.aws.amazon.com/lambda/latest/dg/configuration-layers.html
+
+1. Schedule Expressions for Rules
+    - https://docs.aws.amazon.com/AmazonCloudWatch/latest/events/ScheduledEvents.html
