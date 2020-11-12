@@ -104,6 +104,9 @@ Below is the workflow as depicted by the AWS StepFunctions. The above and below 
 1. Amazon States Language
    - https://docs.aws.amazon.com/step-functions/latest/dg/concepts-amazon-states-language.html
 
+1. Supported AWS Service Integrations for Step Functions
+   - https://docs.aws.amazon.com/step-functions/latest/dg/connect-supported-services.html
+
 1. Standard vs. Express Workflows
    - https://docs.aws.amazon.com/step-functions/latest/dg/concepts-standard-vs-express.html
 
