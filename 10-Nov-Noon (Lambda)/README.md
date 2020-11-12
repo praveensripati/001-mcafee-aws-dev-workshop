@@ -117,6 +117,9 @@ A Lambda function can be invoked in different ways:
 1. Code Guru (Profiling and Reviewing)
     - https://aws.amazon.com/codeguru/features/
 
+1. Introducing CloudWatch Lambda Insights
+    - https://aws.amazon.com/blogs/mt/introducing-cloudwatch-lambda-insights/
+
 1. AWS Lambda layers
     - https://docs.aws.amazon.com/lambda/latest/dg/configuration-layers.html
 

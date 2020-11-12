@@ -3,7 +3,7 @@ def lambda_handler(event, context):
     if (len(event['CC']) == 16 and int(event['Price']) > 0):
         StatusCode = 1
     else:
-    StatusCode = 0
+        StatusCode = 0
     
     return {
         'Status': StatusCode,
