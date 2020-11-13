@@ -58,46 +58,46 @@
 1. Creating Security Groups.
 
 1. Make sure to select the `New EC2 Experience` from the EC2 Management Console as shown below.\
-![](images/2020-11-04-10-00-53.png)
+![](images/new-ec2-experience.png)
 
 1. Create a Security Group (AllowAll) with Inbound `All Protocols/Ports/Sources`. The Outbound rules can be left as default.\
-![](images/2020-11-05-13-57-43.png)
-![](images/2020-11-05-13-58-03.png)
+![](images/allow-all-sg-inbound.png)
+![](images/allow-all-sg-outbound.png)
 
 1. Create a KeyPair with private key in the `ppk` format. When prompted download the Privatekey to Laptop.\
-![](images/2020-11-04-19-44-47.png)
+![](images/create-key-pair.png)
 
 1. Create an `EC2 Launch Template` with the below details
     - Navigate to
         - https://console.aws.amazon.com/ec2/v2/home?region=us-east-1#LaunchTemplates:
     - Click on `Create launch template`\
-![](images/2020-11-05-10-17-55.png)
+![](images/launch-template-created.png)
     - Give the Launch Template a name and description
     - `Ubuntu Server 18.04 LTS (HVM), SSD Volume Type` as the AMI. Make sure to select the one with the architecture as `64-bit (x86)` as shown below.
-![](images/2020-11-06-20-16-53.png)
+![](images/ubuntu-ami.png)
     - Instance type as `t2.medium`
     - Earlier created KeyPair
     - Earlier created SecurityGroup (AllowAll)
     - Click on `Create launch template`
 
 1. To launch EC2 from the above template.
-![](images/2020-11-05-10-19-14.png)
+![](images/launch-ec2-from-templates.png)
 
 1. Grab the Public IP address of the EC2 instance.\
-![](images/2020-11-05-10-35-39.png)
+![](images/ec2-public-ip.png)
 
 1. Download Putty from the below URL.\
         - https://www.chiark.greenend.org.uk/~sgtatham/putty/latest.html
-![](images/2020-11-05-10-36-37.png)
+![](images/putty-download.png)
 
 1. Open Putty and specify the username and IP as shown below.\
-![](images/2020-11-05-10-37-29.png)
+![](images/putty-ip-user.png)
 
 1. In Putty navigate to `Connection --> SSH --> Auth`, click on browse and point to the Keypair (ppk file).\
-![](images/2020-11-05-10-38-15.png)
+![](images/putty-private-key.png)
 
 1. Click on `Connect` to establish a connection to the EC2 instance. When prompted with the security alert for the first time say `yes`. 
-![](images/2020-11-05-10-42-43.png)
+![](images/putty-security-alert.png)
 
 1. Install a static website with Apache2 using the below commands.
     >sudo su\
@@ -289,7 +289,7 @@
 1. High Availability in ELB
 
 1. Different types of ELB\
-![](images/2020-11-05-10-45-38.png)\
+![](images/network-osi-layers.png)\
 https://www.geeksforgeeks.org/layers-of-osi-model/
 
 ## Practicals
