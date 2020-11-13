@@ -137,7 +137,7 @@ Amazon ElastiCache allows you to seamlessly set up, run, and scale popular open-
 
 1. Create an Ubuntu EC2 instance (t2.medium) and connect to to it.
 
-1. Execute the below commands on the EC2 instance.\
+1. Execute the below commands on the EC2 instance.
    >sudo apt-get update
 
 1. Create a Security Group from the EC2 console as shown below and select the same.\
