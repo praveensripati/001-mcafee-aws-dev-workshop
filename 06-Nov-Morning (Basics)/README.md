@@ -55,8 +55,6 @@
 
 ## Practicals
 
-1. Creating Security Groups.
-
 1. Make sure to select the `New EC2 Experience` from the EC2 Management Console as shown below.\
 ![](images/new-ec2-experience.png)
 
