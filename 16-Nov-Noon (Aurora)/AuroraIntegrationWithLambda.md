@@ -66,8 +66,8 @@ A few AWS Services can be integrated with AWS Aurora Database. In this lab we wi
     ![](images/engine-options.png)
     - `Dev/Test` for the `Templates`.
     - Under the `Settings` specify the `password` twice.
-    - Under the `DB instance size` select the options as shown below. This is a small instance, but good enough for demo purpose.\
-    ![](images/db-instance-options.png)
+    - Under the `DB instance size` select the options as shown below.\
+    ![](images/db-instance-options.png.png)
     - For the `Availability & durability` select `Don't create an Aurora Replica`.\
     ![](images/no-aurora-replicas.png)
     - Under `Connectivity` for `Public access` select `Yes`.\
