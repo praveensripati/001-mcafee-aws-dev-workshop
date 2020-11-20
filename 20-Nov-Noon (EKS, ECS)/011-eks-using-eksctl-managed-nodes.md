@@ -1,6 +1,6 @@
 # Creating an EKS Cluster with Managed Nodes
 
-1. Create a K8S Cluster **With Managed Nodes**. 
+1. Create a K8S Cluster **With Managed Nodes**. Make sure to replace the Subnet Id got from the VPC Management Console.
     >eksctl create cluster -f k8s-cluster-managed.yaml
     ![](images/cluster-getting-created.png)
 
