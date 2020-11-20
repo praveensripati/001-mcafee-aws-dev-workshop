@@ -12,7 +12,7 @@
 ![](images/evolution-towards-containers.png)
 
 1. Container orchestration on AWS\
-![](images/container-orchestration-on-aws.png.png)
+![](images/container-orchestration-on-aws.png)
 ![](images/ecs-vs-eks.png)
     - Amazon ECS vs Amazon EKS: making sense of AWS container services
         - https://aws.amazon.com/blogs/containers/amazon-ecs-vs-amazon-eks-making-sense-of-aws-container-services/
