@@ -27,7 +27,7 @@
     >docker build -t hello-world .\
     >docker images --filter reference=hello-world
 
-1. Execute the Docker image.
+1. Execute the Docker image. Ignore the error message around FQDN while executing.
     >docker run -t -i -p 80:80 hello-world
 
 1. Access the webpage from the browser. Use the EC2 Public IP address along with th port number.
