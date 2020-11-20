@@ -6,7 +6,7 @@ A few AWS Services can be integrated with AWS Aurora Database. In this lab we wi
 1. Create an SNS topic and subscribe to it via email.\
 ![](images/sns-topic-email-subscription.png)
 
-1. Create an IAM Role for the Lambda with SNS and AmazonSNSFullAccess permissions.\
+1. Create an IAM Role for the Lambda with SNS and AmazonSNSFullAccess and AWSLambdaBasicExecutionRole permissions.\
 ![](images/iam-role-with-sns-fa-policy.png)
 
 1. Create a Lambda Function with `Python 3.8` to publish a message to a topic. Make sure to replace the TopicArn in the code. Also, attach the above IAM Role to the Lambda. There is no need to add any trigger.
