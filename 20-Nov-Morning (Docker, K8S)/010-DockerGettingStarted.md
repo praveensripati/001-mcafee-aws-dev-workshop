@@ -6,7 +6,7 @@
     >sudo apt-get remove docker docker-engine docker.io containerd runc
 
 1. Install the prerequisites for Docker.
-    >sudo apt-get update
+    >sudo apt-get update\
     >sudo apt-get install apt-transport-https ca-certificates curl gnupg-agent software-properties-common -y
 
 1. Add the Docker repository.
