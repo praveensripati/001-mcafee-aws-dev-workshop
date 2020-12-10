@@ -30,6 +30,11 @@ SQS is a managed services and all the above tasks are taken care by AWS automati
 
 1. Install Boto3 SDK for Python or Node.js SDK for JavaScript.
 
+1. Run the below commands on the EC2 instances to specify the default region.
+
+    >mkdir .aws\
+    >echo -e "[default]\nregion=us-east-1" > .aws/config
+
 ## Practicals (Python)
 
 1. Copy `sqs-python-code\send_message.py` and `sqs-python-code\get_message.py` to the EC2 instances into the folder. Make sure to replace the Queue URL in the code. The location of the Python3 files doesn't matter.
