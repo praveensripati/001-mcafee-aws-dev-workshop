@@ -57,7 +57,8 @@
 
 https://aws.amazon.com/blogs/compute/translating-documents-at-enterprise-scale-with-serverless/
 
-1. Clone git clone https://github.com/aws-samples/s3-to-lambda-patterns.git
+1. Clone the Translate application.
+    >git clone https://github.com/aws-samples/s3-to-lambda-patterns.git
 
 1. Navigate to the V1 folder.
 
