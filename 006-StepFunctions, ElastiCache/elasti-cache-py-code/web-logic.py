@@ -2,7 +2,7 @@ import redis
 import mysql.connector
 import sys
 
-redis_url = 'myrediscluster.hwzwnc.0001.use1.cache.amazonaws.com'
+redis_url = 'myrediscluster.hwzwnc.ng.0001.use1.cache.amazonaws.com'
 
 host = 'database-1.cmeeo0ikklen.us-east-1.rds.amazonaws.com'
 user = 'praveen'

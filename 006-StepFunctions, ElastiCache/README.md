@@ -160,6 +160,7 @@ Amazon ElastiCache allows you to seamlessly set up, run, and scale popular open-
 ## Python program to interact with Redis
 
 1. Install python and pip.
+   >sudo apt-get update\
    >sudo apt-get install python3 python3-pip -y
 
 1. Install the redis connector for python.
