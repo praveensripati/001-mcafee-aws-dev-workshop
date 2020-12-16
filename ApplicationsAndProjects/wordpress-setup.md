@@ -20,7 +20,7 @@
    >apt-get install apache2 php php-mysql php-curl mysql-client libapache2-mod-php unzip -y
 
 1. Again in Putty execute the below commands to download and extract the latest WordPress.
-   >cd /var/www/
+   >cd /var/www/\
    >wget https://wordpress.org/latest.zip  
    >unzip latest.zip
 
