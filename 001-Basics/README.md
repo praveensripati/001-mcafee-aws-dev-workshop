@@ -23,10 +23,6 @@
     - https://docs.aws.amazon.com/lambda/latest/dg/with-s3-example.html
     - https://github.com/awsdocs/aws-lambda-developer-guide/pull/217
 
-1. AWS Console
-    - http://console.aws.amazon.com/ (Personal Account)
-    - https://cloudlabs.nuvepro.com/company/EdurekaLive/home (Edureka AWS Account)
-
 # AWS Management Console
 
 1. Navigating the AWS Management Console.
@@ -34,10 +30,6 @@
 1. Selecting the Regions. We will do most of the labs in North Virginia.
 
 1. Opening the services in different tabs.
-
-1. Here are the AWS limitations with the AWS Account
-    - EC2 Instance Type - only t2.medium
-    - RDS Instance Type - only db.r5.large
 
 # EC2
 
