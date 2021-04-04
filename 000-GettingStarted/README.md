@@ -5,8 +5,7 @@
 
 1. Recording of the session is now allowed. So, please don't use the sharing tools recording feature.
 
-1. Any resources created in the AWS account have to be tagged as shown below. This way we can keep track of who has created a particular resource and also helps with the billing. Note that tags are case sensitive and lets use lower case.
-
+1. Any resources created in the AWS account have to be tagged as shown below. This way, we can keep track of who has created a particular resource and also helps with the billing. Note that tags are case sensitive and lets use lower case.\
 ![](images/2021-04-03-13-40-51.png)
 
 1. Keep the resource usage to the minimum, like create an EC2 instance with t2.micro where ever possible.
@@ -23,8 +22,7 @@
 
 1. Make sure to select the subnet which doesn't have a word **reserved** in it.
 
-1. While creating the Security Group, make sure that the Inbound rules has **10.0.0.0/8** for the source as shown below. This will allow connection to the AWS resources from the McAfee network.
-
+1. While creating the Security Group, make sure that the Inbound rules has **10.0.0.0/8** for the source as shown below. This will allow connection to the AWS resources from the McAfee network.\
 ![](images/2021-04-03-16-12-21.png)
 
 ## Option 2 (without VPN)
