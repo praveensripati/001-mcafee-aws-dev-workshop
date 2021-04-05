@@ -65,7 +65,7 @@
     - Give the Launch Template a name and description
     - `Ubuntu Server 18.04 LTS (HVM), SSD Volume Type` as the AMI. Make sure to select the one with the architecture as `64-bit (x86)` as shown below.\
 ![](images/ubuntu-ami.png)
-    - Instance type as `t2.medium`
+    - Instance type as `t2.micro`
     - Earlier created KeyPair
     - Earlier created SecurityGroup (AllowAll)
     - Click on `Create launch template`
