@@ -35,7 +35,7 @@
 
 1. Select the **default** VPC.
 
-1. While creating the Security Group, make sure that the Inbound rules has **0.0.0.0/8** for the source. This will allow connection to the AWS resources from the McAfee network.
+1. While creating the Security Group, make sure that the Inbound rules has **0.0.0.0/0** for the source. This will allow connection to the AWS resources from the McAfee network.
 
 # Agenda
 
