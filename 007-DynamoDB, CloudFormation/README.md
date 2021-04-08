@@ -97,7 +97,7 @@
 1. Fine-Grained access Control
     - https://aws.amazon.com/blogs/aws/fine-grained-access-control-for-amazon-dynamodb/
 
-1. Write Consistency (Eventual and Strong)
+1. Read Consistency (Eventual and Strong)
     - https://docs.aws.amazon.com/amazondynamodb/latest/developerguide/HowItWorks.ReadConsistency.html
 
 1. RCU and WCU (Serverless)
