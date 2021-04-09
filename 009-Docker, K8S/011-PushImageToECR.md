@@ -1,6 +1,8 @@
 # Push the Docker Image to ECR
 
-1. Create an IAM Role with the Admin Policy and attach the Role to the EC2.
+** Make sure to replace the region with the appropriate region in all the below commands **
+
+1. Create an IAM Role with the Admin Policy (???) and attach the Role to the EC2.
 
 1. Install the AWS CLI
 
@@ -14,7 +16,7 @@
 1. Tag the Docker image created earlier. Make sure to specify the proper repository name, got from the previous step.
     >docker tag hello-world:latest **327762702280.dkr.ecr.us-east-1.amazonaws.com**/hello-world:latest
 
-1. Get the ECR credentials and provide the same to Docker. This enables Docker to authenticate and pull the image from ECR. The warning during the process can be ignored.
+1. Get the ECR credentials and provide the same to Docker. This enables Docker to authenticate and push the image from ECR. The warning during the process can be ignored.
     >aws ecr get-login-password --region us-east-1 | docker login --username AWS --password-stdin **327762702280.dkr.ecr.us-east-1.amazonaws.com**
 
 1. Push the Docker image to the ECR. Make sure to specify the proper repository name, got from the previous step.
