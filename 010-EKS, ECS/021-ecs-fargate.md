@@ -1,6 +1,8 @@
 # Creating ECS Cluster using Fargate
 
 1. Create an IAM Role for `Elastic Container Service` with the `AmazonECSTaskExecutionRolePolicy` and call it `ecsTaskExecutionRole`. Note down the `Role ARN`.\
+![](images/2021-04-09-16-04-59.png)
+![](images/2021-04-09-16-05-28.png)
 ![](images/iam-ecs-task-execution-role.png)
 
 1. In the CloudWatch Management Console, create a `Log groups` called `/ecs/fargate-task-definition`.
