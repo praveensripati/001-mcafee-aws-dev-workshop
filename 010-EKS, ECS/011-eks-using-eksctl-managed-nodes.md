@@ -78,7 +78,7 @@
 1. Identify the IAM Role associated with the NodeGroup -- `Node IAM Role ARN`. Modify the Role and attach above Policy.\
 ![](images/identify-iam-role-node-group.png)
 
-1. Navigate to the EMR Management Console and grab the `Image URI`.\
+1. Navigate to the ECR Management Console and grab the `Image URI`.\
 ![](images/ecr-image-uri.png)
 
 1. Push the Docker image to ECR.
