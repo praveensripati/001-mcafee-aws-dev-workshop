@@ -29,7 +29,7 @@
 ![](images/ecs-fargate-cluster-created.png)
 
 1. Under the `Services` tab click on `Create` with the below details.
-    - For Launch type, select EC2
+    - For Launch type, select Fargate
     - For Task definition, select the task definition created in previous step.
     - For Cluster, select the cluster you created in previous steps.
     - For Service name, enter the name of the service `my-ecs-service`.
