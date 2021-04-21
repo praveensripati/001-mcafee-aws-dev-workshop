@@ -9,7 +9,7 @@
 1. Navigate to the bottom of the screen and click on `Configure via JSON`.\
 ![](images/configure-via-json.png)
 
-1. Copy the task definition from the `ecs-task-definition-ec2.json` file and paste it. Click on `Save`. Click on `Create`. Here the task definition is using an `httpd` image, but the image which has uploaded to the ECR can also be used.
+1. Copy the task definition from the `ecs-task-definition-ec2.json` file and paste it. Click on `Save`. Click on `Create`. Here the task definition is using an `httpd` image, but the image which has uploaded to the ECR can also be used. Check `ecs-task-definition-ec2-from-ecr.json` for more details.
 
 1. Navigate to the `Clusters` tab and click on `Create Cluster`.\
 ![](images/create-ecs-cluster.png)
@@ -19,7 +19,7 @@
 
 1. Specify the cluster details and finally click on `Create`.
     - Give the cluster a name `my-ecs-cluster-ec2`.
-    - Select the appropriate EC2 instance type.
+    - Select `t2.micro` for the EC2 instance type.
     - Select the `Key pair`.
     - For the Networking select the existing VPC and one of the subnet.
     - For `Auto assign public IP` select `Enabled`.

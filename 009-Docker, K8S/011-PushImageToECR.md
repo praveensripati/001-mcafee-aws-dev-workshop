@@ -1,17 +1,11 @@
 # Push the Docker Image to ECR
 
-** Make sure to replace the region with the appropriate region in all the below commands **
-
-1. Create an IAM Role with the Admin Policy (???) and attach the Role to the EC2.
-
-1. Install the AWS CLI
-
-1. Run the `aws configure` command and specify only the region as `us-east-1`, rest can be left blank.
+**Make sure to replace the region with the appropriate region in all the below commands**
 
 1. Create a repository in ECR.
     >aws ecr create-repository --repository-name hello-world --region us-east-1
 
-1. Grab the ECR Repository URL and replace the same in the below commands.
+1. Grab the ECR Repository Uri (with the tag "repositoryUri") and replace the same in the below commands.
 
 1. Tag the Docker image created earlier. Make sure to specify the proper repository name, got from the previous step.
     >docker tag hello-world:latest **327762702280.dkr.ecr.us-east-1.amazonaws.com**/hello-world:latest
