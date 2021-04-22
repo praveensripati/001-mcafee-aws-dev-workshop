@@ -2,12 +2,16 @@
 
     - Create an Application ELB and showcase the path based routing.
     - Register a domain with Freenom and use Route53 to provide a user friendly alternative to the ELB DNS name.
+    - Using Cost Explorer to measure and minimize costs
+    - Using tags to attribute the costs
 
 # Note
 
 1. Depending on the Internet Service Provider and the Location, the changes to the Freenom and Route53 would take a few minutes to hours for the propagation to take place. If it doesn't work immediately, make sure that all the steps are completed properly and wait for a few hours.
 
 1. Also, the entire lab can be performed for free within in the AWS Free Tier. The Route53 Hosted Zone is charged 50c/HZ/month unless deleted in 12 hours. So, make sure to delete it once done with the lab.
+
+1. Freenom.com is a free service and it is as good as it is. It has been noticed that the service is a bit flaky.
 
 ## Create EC2 Instances
 
@@ -144,6 +148,9 @@ https://my.freenom.com/clientarea.php?action=domains
 ![](images/2020-10-31-15-08-10.png)
 
 # Further Reading
+
+1. Registering a new domain with Route53
+    - https://docs.aws.amazon.com/Route53/latest/DeveloperGuide/domain-register.html
 
 1. Listener rules for your Application Load Balancer
     - https://docs.aws.amazon.com/elasticloadbalancing/latest/application/listener-update-rules.html

@@ -18,5 +18,8 @@ CloudWatch Logs Insights includes a purpose-built query language with a few simp
 1. Sample Queries
     - https://docs.aws.amazon.com/AmazonCloudWatch/latest/logs/CWL_QuerySyntax-examples.html
 
+1. Using Lambda Insights in Amazon CloudWatch
+    - https://docs.aws.amazon.com/lambda/latest/dg/monitoring-insights.html
+
 1. See it all with CloudWatch Logs Insights
     - https://medium.com/weareservian/see-it-all-with-cloudwatch-logs-insights-5c7e7bab43d0

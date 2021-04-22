@@ -47,6 +47,8 @@
 
     - Create an Application ELB and showcase the path based routing
     - Register a domain with Freenom and use Route53 to provide a user friendly alternative to the ELB DNS name
+    - Using Cost Explorer to measure and minimize costs
+    - Using tags to attribute the costs
 
 - **Session 3**
 
@@ -62,9 +64,10 @@
 
 - **Session 5**
 
-    - What is Serverless? The different services around serverless from AWS
-    - Introduction to Lambda Different ways of invoking Lambda
-    - Invoking Lambda via CloudWatch Scheduler and CloudWatch Events (Python, NodeJS)
+    - What is Serverless? The different services around serverless from AWS.
+    - Introduction to Lambda. Different ways of invoking Lambda.
+    - Invoking Lambda via CloudWatch Scheduler and CloudWatch Events  (Python, NodeJS).
+    - Analyzing the Lambda Logs using CloudWatch Insights.
 
 - **Session 6**
 
@@ -90,8 +93,13 @@
     - Different ways of setting up an ECS and EKS Cluster in AWS
     - Creating a Docker Container with a static page
     - Registering the Container with AWS ECR
+    - Setting up an EKS Cluster with Fargate and deploy above container
+    - Setting up an ECS Cluster without Fargate and deploy above container
 
 - **Session 10**
 
-    - Setting up an EKS Cluster with Fargate and deploy above container
-    - Setting up an ECS Cluster without Fargate and deploy above containers
+    - Auto Scaling of EC2 instances
+    - Using Jumpbox/Bastion Box for connecting to EC2 instances
+    - Project
+        - Gathering Custom Metrics in the CloudWatch and creating DashBoards
+        - AutoScaling of the EC2 instances using the above Custom Metrics

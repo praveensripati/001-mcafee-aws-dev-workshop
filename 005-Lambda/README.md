@@ -3,6 +3,7 @@
     - What is Serverless? The different services around serverless from AWS.
     - Introduction to Lambda. Different ways of invoking Lambda.
     - Invoking Lambda via CloudWatch Scheduler and CloudWatch Events  (Python, NodeJS).
+    - Analyzing the Lambda Logs using CloudWatch Insights.
 
 # Theory
 
