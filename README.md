@@ -11,8 +11,8 @@
 
 1. Everything will be shared via Github. AWS is making constant changes to the UI and rolling them slowly to users. The images in the github documentation might not reflect the latest AWS screen. But, the overall procedure is all the same.
 
-1. Any resources created in the AWS account have to be tagged as shown below. This way, we can keep track of who has created a particular resource and also helps with the billing. Note that tags are case sensitive and lets use lower case.\
-![](images/2021-04-03-13-40-51.png)
+1. Any resources created in the AWS account have to be tagged as shown below. This way, we can keep track of who has created a particular resource and also helps with the billing. Note that tags are case sensitive and lets use lower case. Make sure to replace `trainingxxx` with something appropriate like `training004`.\
+![](images/2021-04-24-13-26-25.png)
 
 1. Keep the resource usage to the minimum, like create an EC2 instance with t2.micro where ever possible.
 

@@ -2,6 +2,35 @@
 
 AWS does provide a lot of services with very nice and interesting features. But, combining the different AWS Services makes it much more interesting. This page is an attempt to consolidate such things (AWS and non AWS articles). Follow the detailed instructions in each one of them and get more familiar with AWS.
 
+1. Getting started with serverless for developers
+	- https://aws.amazon.com/blogs/compute/getting-started-with-serverless-for-developers-part-1/
+	- https://aws.amazon.com/blogs/compute/getting-started-with-serverless-for-developers-part-2-the-business-logic/
+
+1. Use computer vision to detect crop disease through image analysis with Amazon Rekognition Custom Labels
+	- https://aws.amazon.com/blogs/machine-learning/plant-leaf-disease-detection-with-amazon-rekognition-custom-labels/
+
+1. Processing satellite imagery with serverless architecture
+	- https://aws.amazon.com/blogs/compute/processing-satellite-imagery-with-serverless-architecture/
+
+1. How to auto-remediate internet accessible ports with AWS Config and AWS System Manager (#SECURITY, #CONFIG, #SYSTEMMANAGER)
+	- https://aws.amazon.com/blogs/security/how-to-auto-remediate-internet-accessible-ports-with-aws-config-and-aws-system-manager/
+
+1. Rust detection using machine learning on AWS
+	- https://aws.amazon.com/blogs/machine-learning/rust-detection-using-machine-learning-on-aws/
+
+1. Automatically update security groups for Amazon CloudFront IP ranges using AWS Lambda
+	- https://aws.amazon.com/blogs/security/automatically-update-security-groups-for-amazon-cloudfront-ip-ranges-using-aws-lambda/
+
+1. Cloud Native Application Monitoring for AWS
+	- https://aws.amazon.com/blogs/mt/cloud-native-application-monitoring-aws/
+
+1. How to Identify and Block Fake Crawler Bots Using AWS WAF
+	- https://aws.amazon.com/blogs/architecture/field-notes-how-to-identify-and-block-fake-crawler-bots-using-aws-waf/
+
+1. Building serverlessland.com
+	- https://aws.amazon.com/blogs/compute/building-serverless-land-part-1-automating-content-aggregation/
+	- https://aws.amazon.com/blogs/compute/building-serverless-land-part-2-an-auto-building-static-site/
+
 1. Creating an intelligent ticket routing solution using Slack, Amazon AppFlow, and Amazon Comprehend (#APPFLOW, #COMPREHEND)
 	- https://aws.amazon.com/blogs/machine-learning/creating-an-intelligent-ticket-routing-solution-using-slack-amazon-appflow-and-amazon-comprehend/
 
@@ -60,7 +89,7 @@ AWS does provide a lot of services with very nice and interesting features. But,
 	- https://aws.amazon.com/blogs/mt/controlling-your-aws-costs-by-deleting-unused-amazon-ebs-volumes/
 
 1. AWS S3 Photo Thumbnail (**#S3, #LAMBDA**)
-	- https://docs.aws.amazon.com/lambda/latest/dg/with-s3-example.html (JS)
+	- https://docs.aws.amazon.com/lambda/latest/dg/with-s3-tutorial.html (JS)
 	- https://levelup.gitconnected.com/resize-an-image-in-aws-s3-using-lambda-function-dc386afd4128 (Python)
 	- https://aws.amazon.com/solutions/implementations/serverless-image-handler/
 	- http://www.thecloudavenue.com/2017/08/photo-resizing-using-aws-lambda-serverless-architecture.html
