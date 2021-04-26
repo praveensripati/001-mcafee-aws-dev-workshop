@@ -1,7 +1,7 @@
 
 # Warming Up
 
-1. We will try to make the sessions interactive with a lot of labs/demos as we progress. The assumption is that all of us know what Cloud is and it's pros/cons and so we will skip this part.
+1. We will try to make the sessions interactive with a lot of labs/demos as we progress. The assumption is that all of us know what Cloud is and it's pros/cons and so we will skip this part. Another assumption is that all of you have an account with AWS.
 
 1. All the participants will be muted by default, please keep it muted. If you have any query then you can unmute yourself and ask me. Once the query is resolved, please mute back yourself. This way we can have a smooth session without any background noises.
 
