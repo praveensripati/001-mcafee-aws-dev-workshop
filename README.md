@@ -20,7 +20,14 @@
 
 # Creating resources in VPC (EC2, RDS, Aurora etc)
 
-## Option 1 (with VPN)
+## Option 1 (without VPN)
+
+1. Select the **default** VPC the one with the CIDR starting with 172 as shown below.
+![](images/2021-04-26-14-00-31.png)
+
+1. While creating the Security Group, make sure that the Inbound rules has **0.0.0.0/0** for the source. This will allow connection to the AWS resources from the McAfee network.
+
+## Option 2 (with VPN)
 
 1. Make sure you are connected to the VPN.
 
@@ -31,11 +38,7 @@
 1. While creating the Security Group, make sure that the Inbound rules has **10.0.0.0/8** for the source as shown below. This will allow connection to the AWS resources from the McAfee network.\
 ![](images/2021-04-03-16-12-21.png)
 
-## Option 2 (without VPN)
 
-1. Select the **default** VPC.
-
-1. While creating the Security Group, make sure that the Inbound rules has **0.0.0.0/0** for the source. This will allow connection to the AWS resources from the McAfee network.
 
 # Agenda
 
@@ -64,10 +67,10 @@
 
 - **Session 5**
 
-    - What is Serverless? The different services around serverless from AWS.
+    - What is Serverless? The different services around serverless from AWS
     - Introduction to Lambda. Different ways of invoking Lambda.
-    - Invoking Lambda via CloudWatch Scheduler and CloudWatch Events  (Python, NodeJS).
-    - Analyzing the Lambda Logs using CloudWatch Insights.
+    - Invoking Lambda via CloudWatch Scheduler and CloudWatch Events  (Python, NodeJS)
+    - Analyzing the Lambda Logs using CloudWatch Insights
 
 - **Session 6**
 
