@@ -22,7 +22,7 @@
 
 ## Option 1 (without VPN)
 
-1. Select the **default** VPC the one with the CIDR starting with 172 as shown below.
+1. Select the **default** VPC the one with the CIDR starting with **172.31** as shown below.
 ![](images/2021-04-26-14-00-31.png)
 
 1. While creating the Security Group, make sure that the Inbound rules has **0.0.0.0/0** for the source. This will allow connection to the AWS resources from the McAfee network.
