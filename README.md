@@ -20,14 +20,14 @@
 
 # Creating resources in VPC (EC2, RDS, Aurora etc)
 
-## Option 1 (without VPN)
+## Option 1 (preferred without VPN for the workshops)
 
-1. Select the **default** VPC the one with the CIDR starting with **172.31** as shown below. Check for the VPC in NV or Oregon and stick to that region for the demos.
+1. Select the **default** VPC the one with the CIDR starting with **172.31** as shown below. Check for the VPC in NV or Oregon and stick to that region for the practicals.
 ![](images/2021-04-26-14-00-31.png)
 
 1. While creating the Security Group, make sure that the Inbound rules has **0.0.0.0/0** for the source. This will allow connection to the AWS resources from the McAfee network.
 
-## Option 2 (with VPN)
+## Option 2 (with VPN when used in the office projects)
 
 1. Make sure you are connected to the VPN.
 
