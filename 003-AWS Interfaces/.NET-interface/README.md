@@ -1,6 +1,6 @@
 # Installing .NET SDK
 
-1. Generate the Access Keys using the below link.
+1. The Access Keys can be got using the below link. If you don't have permissions ask your AWS Admin to provide them for you.
     - https://console.aws.amazon.com/iam/home?region=us-east-1#/security_credentials
 
 1. Create `%USERPROFILE%\.aws\credentials` file in Windows with the below content. Make sure to replace the Access Keys.

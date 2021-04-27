@@ -26,7 +26,7 @@ SQS is a managed services and all the above tasks are taken care by AWS automati
 
 1. Create two EC2 instances.
 
-1. Create an IAM Roles with AdministratorAccess Policy and attach them to the EC2 instances to give permissions to the applications on the EC2 instances.
+1. Create an IAM Roles with Custom Policy (using sqs-receive-delete-permissions.json and sqs-send-permissions.json) and attach them to the EC2 instances to give permissions to the applications on the EC2 instances.
 
 1. Install Boto3 SDK for Python or Node.js SDK for JavaScript.
 
