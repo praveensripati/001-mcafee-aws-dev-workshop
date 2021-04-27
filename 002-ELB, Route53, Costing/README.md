@@ -154,3 +154,9 @@ https://my.freenom.com/clientarea.php?action=domains
 
 1. Listener rules for your Application Load Balancer
     - https://docs.aws.amazon.com/elasticloadbalancing/latest/application/listener-update-rules.html
+
+1. Route53 Routing Policies
+    - https://docs.aws.amazon.com/Route53/latest/DeveloperGuide/routing-policy.html
+
+1. I changed DNS settings, but they haven't taken effect
+    - https://docs.aws.amazon.com/Route53/latest/DeveloperGuide/troubleshooting-new-dns-settings-not-in-effect.html
