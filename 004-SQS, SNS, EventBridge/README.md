@@ -70,6 +70,11 @@ SQS is a managed services and all the above tasks are taken care by AWS automati
 1. Amazon SQS FAQs
     - https://aws.amazon.com/sqs/faqs/
 
+1. SQS FIFO Queues
+    - https://docs.aws.amazon.com/AWSSimpleQueueService/latest/SQSDeveloperGuide/FIFO-queues.html
+    - https://aws.amazon.com/blogs/developer/using-python-and-amazon-sqs-fifo-queues-to-preserve-message-sequencing/
+    - https://docs.aws.amazon.com/AWSSimpleQueueService/latest/APIReference/API_SendMessage.html
+
 # SNS (Simple Notification Service)
 
 ## Theory

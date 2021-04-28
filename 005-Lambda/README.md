@@ -94,7 +94,7 @@ A Lambda function can be invoked in different ways:
     - https://aws.amazon.com/blogs/aws/new-use-aws-privatelink-to-access-aws-lambda-over-private-aws-network/
 
 1. Shrinking an S3 image with NodeJS
-    - https://docs.aws.amazon.com/lambda/latest/dg/with-s3-example.html
+    - https://docs.aws.amazon.com/lambda/latest/dg/with-s3-tutorial.html
 
 1. Collation of articles on Serverless Architecture
     - https://aws.amazon.com/blogs/architecture/ten-things-serverless-architects-should-know/
@@ -126,3 +126,6 @@ A Lambda function can be invoked in different ways:
 
 1. Schedule Expressions for Rules
     - https://docs.aws.amazon.com/AmazonCloudWatch/latest/events/ScheduledEvents.html
+
+1. Building Lambda functions with C#
+    - https://docs.aws.amazon.com/lambda/latest/dg/lambda-csharp.html
