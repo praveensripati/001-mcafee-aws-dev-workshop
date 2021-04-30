@@ -4,17 +4,7 @@
 
 1. Install the AWS CLI.
 
-1. Navigate to the IAM Management Console and the Users Tab.
-
-1. Click on `Add user`.
-
-1. Give the user a name and select `Programmatic access`.
-
-1. Click on `Next : Permissions`.
-
-1. Select `Attach existing policies directly`.
-
-1. Select `AdministratorAccess` under the policies.
+1. Get the Access Keys with the `AdministratorAccess`.
 
 1. Click on next twice.
 

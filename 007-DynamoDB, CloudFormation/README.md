@@ -35,7 +35,7 @@
 
 1. From the SES Management Console, verify two email addresses for the sender and the receiver.
 
-1. Create an IAM Role for Lambda with the `AWSLambdaDynamoDBExecutionRole` and `AmazonSESFullAccess` policies.\
+1. Create an IAM Role for Lambda with the `AWSLambdaBasicExecutionRole`, `AWSLambdaDynamoDBExecutionRole` and `AmazonSESFullAccess` policies.\
 ![](images/iam-role-for-lambda.png)
 
 1. Create a Lambda function (Python or JS) to send an email. Attach the above Role to the Lambda.
